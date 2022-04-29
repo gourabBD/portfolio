@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	<!----hero Section start---->
+
+	<header class="hero">
+		<nav>
+			<div>
+				<a href="#"><img id="mylogo" src="/img/my logo.jpg" alt="logo"></a>
+			</div>
+			
+			<!-- <h2 class="logo">Portfo<span>lio.</span></h2> -->
+			<div class="nav__menu" id="nav-menu">
+				<ul>
+					<li><a href="#" class="active">Home</a></li>
+					<li><a href="#about" class="">About Me</a></li> 
+					<!-- <a class="button" href="#">Read More</a> -->
+					<li><a href="#service" class="">My Projects</a></li>
+					
+					<li><a href="#footer" class="">Contact Us</a></li>
+				</ul>
+			</div>
+			<a href="#" class="btn">Subscribe</a>
+		</nav>
+		<img id="img" src="/img/me3.jpg" alt="">
+
+		<div class="content">
+			<h4>Hello, my name is</h4>
+			<h1>Gourab <span>Roy</span></h1>
+			<h3>I'am a Web Developer.</h3>
+			
+		</div>
+	</header>
+
+	<!----About section start---->
+	<section class="about" id="about">
+		<div class="main">
+			<img src="img/me.jpg">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Developer <span>& Designer</span></h5>
+				<p>Hi there 👋, This is Gourab Roy. A self-taught, passionate and fast-learner front-end developer from Cumilla, 🇧🇩 🌎. I hold a B.Sc in Computer Science and Engineering from "Bangladesh Army International University of Science and Technology(BAIUST)", Cumilla Cantonment 👨‍🎓. I love to work with new technologies and developing web applications 🔭. Currently, I am learning how to improve the performance of progressive web applications for better user experience 🌱. I’m looking to apply skills as part of a fast-paced, quality-driven team in order to build better experiences on the web 🚀.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-----service section start----------->
+	<section class="service" id="service">
+		<div class="title">
+			<h2>My Projects</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				
+				<h5>Dgital and Analog Watch</h5>
+				<div class="pra">
+					<img id="clock" src="img/clock.PNG" alt="">
+
+					<p style="text-align: center;">
+						<a class="button" href="https://bejewelled-kheer-85f742.netlify.app/">Watch Live</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				
+				<h5>ToDo List</h5>
+				<div class="pra">
+					<img id="todo" src="img/todo.PNG" alt="">
+
+					<p style="text-align: center;">
+						<a class="button" href="https://endearing-melomakarona-cb9845.netlify.app/">Watch Live</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+			
+				<h5>Portfolio Site</h5>
+				<div class="pra">
+					<img id="portfo" src="img/portfo.PNG" alt="">
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Watch Live</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+
+	<!------footer start--------->
+	<footer class="footer" id="footer">
+		<p>Gourab Roy</p>
+
+		<p>You can contact with me through this links bellow:</p>
+		 <form
+			action="https://formspree.io/f/mrgjogak"
+			method="POST"
+		>
+			<label>
+			 <p id="Your_email">	Your email: </p>
+				<input id="email" type="email" name="email">
+			</label>
+			<label>
+				<p id="Your_message">	Your message: </p>	
+				<textarea id="message" name="message"></textarea>
+			</label>
+			<!-- your other form fields go here -->
+			<button id="send" type="submit">Send</button>
+		</form>
+
+		<div class="social">
+			
+			<a href="https://mail.google.com"><i class="fab fa-google"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-linkedin"></i></a>
+			<a href="https://github.com/gourabBD"><i class="fab fa-github" ></i></a>
+		</div>
+		<p class="end">&copy;Copyright By Gourab Roy</p>
+	</footer>
+</body>
+</html>
